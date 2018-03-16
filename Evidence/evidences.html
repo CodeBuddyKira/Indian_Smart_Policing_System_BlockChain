@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="evidences.css">
+</head>
+<body>
+
+<h2><center>Evidences Upload</center></h2>
+
+  <div class="container"> 
+  <h3>Select files to upload : </h3> 
+  <form method="post" action="action_page.php" enctype="multipart/form-data">
+  <input name="filesToUpload[]" id="filesToUpload" type="file" accept="image/*,audio/*,video/*,application/pdf,.txt,.docx,.odt" multiple="" />
+</form>
+  </div>
+
+  <div class="container">
+<p>Ctrl+Click on files to upload for uploading multiple files</p>
+<p><strong>Note:</strong> Please make sure you are not using Internet Explorer 9 or earlier versions.</p>
+  </div>
+
+    <div class="container">
+    <button type="submit">Submit</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+  </div>
+</form>
+
+</body>
+</html>
+
